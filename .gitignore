@@ -10,3 +10,4 @@ fm.docker-compose.yaml
 /node_modules
 /web/assets
 /web/images
+/web/mix-manifest.json
