@@ -1,15 +1,27 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import InstantSearch from "./Components/InstantSearch";
+import EndOfArticle from "./Analytics/EndOfArticle";
 
-const rootElement = document.getElementById("Algolia");
+const searchElement = document.getElementById("Algolia");
+const endOfArticle = document.getElementById("end-of-article");
 
-if (rootElement) {
-    const root = createRoot(rootElement);
+if (searchElement) {
+    const search = createRoot(searchElement);
 
-    root.render(
+    search.render(
         <StrictMode>
             <InstantSearch />
+        </StrictMode>
+    );
+}
+
+if (endOfArticle) {
+    const endOfArticleRoot = createRoot(endOfArticle);
+
+    endOfArticleRoot.render(
+        <StrictMode>
+            <EndOfArticle />
         </StrictMode>
     );
 }

@@ -1,6 +1,11 @@
 export default ({ hit, sendEvent }) => {
+    let url = hit.url;
+    if (hit.__queryID) {
+        url += "?qid=" + hit.__queryID;
+    }
+
     return (
-        <a href={hit.url} onClick={() => {
+        <a href={url} onClick={() => {
             sendEvent('click', hit, 'Page viewed');
         }}>
             <article>
