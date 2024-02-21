@@ -1,13 +1,18 @@
-$link: #aaccff;
-$link-hover: #55aadd;
+@import "variables";
+@import "algolia";
+@import "content-blocks";
 
 body {
-    background: black;
-    color: white;
+    padding: 0;
+    margin: 0;
 }
 
 nav {
+    background: black;
+    padding: 20px;
+
     a {
+        display: inline-block;
         color: $link;
         text-decoration: none;
 
@@ -17,35 +22,14 @@ nav {
     }
 }
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
-    margin: 20px 50px;
-
-    a {
-        color: $link;
-        text-decoration: none;
-
-        &:hover {
-            color: $link-hover;
-        }
-    }
-
-    article {
-        img {
-            max-height: 200px;
-        }
-    }
+h1, h2, h3, h4, h5 {
+    margin-top: 0;
 }
 
-.kit-wrapper {
+.content {
+    background: black;
+    color: white;
     display: block;
-    text-align: center;
-
-    img {
-        max-width: 600px;
-        max-height: 400px;
-    }
+    margin: 0 auto;
+    max-width: 1200px;
 }
