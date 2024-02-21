@@ -1,4 +1,4 @@
-dateModified: 1708476151
+dateModified: 1708511578
 email:
   fromEmail: accalton@gmail.com
   fromName: Craft
@@ -16,14 +16,25 @@ meta:
     2cbf6175-9fd2-4c1b-878b-b824dac4990e: 'Cover Image' # Cover Image
     2d130cb1-c774-418d-a98b-57bdda379f4d: 'Product Line' # Product Line
     3f6b2556-6fdd-48b4-b28b-a625bcb4132d: Craft # Craft
+    4e032e35-8cc8-48e1-897c-6a3e2cb90432: Text # Text
     6d49040b-b861-4e4e-8783-e11c85207bf1: Craft # Craft
+    7de5ae36-bce9-48c9-9526-b1cc4507c79c: 'Text Only' # Text Only
     16b7b362-5e79-46fc-ad98-0c9d63416a5e: 'Product Line' # Product Line
+    44365d66-38a4-4e96-9193-88287768edb0: Image # Image
     a317d4bd-b383-4b1a-aa8e-906e4643f142: 'Model Kits' # Model Kits
+    acb1177c-7912-4c43-8906-b8645e5893fb: 'Content Blocks' # Content Blocks
+    b1784cae-4a05-45b9-ae48-d57bfdac0c4d: Text # Text
+    bf5c22bf-38db-41f7-b85b-caea58593065: 'Text with Image' # Text with Image
     c681efaf-8557-4400-af2d-1994f46e07e3: Default # Default
     c995f451-5c8a-4d9a-aee3-ea951c72855e: Common # Common
     cf4f295c-7351-4308-bc93-bcd1f7378561: Images # Images
     d659d0b5-3d18-4fa1-9170-de575ed423a5: 'Model Kits' # Model Kits
+    e6c317e0-f31f-4b89-91e2-fbe19a1b8180: 'Image on Right' # Image on Right
 plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
   scout:
     edition: standard
     enabled: true
