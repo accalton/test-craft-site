@@ -1,0 +1,42 @@
+dateModified: 1708476151
+email:
+  fromEmail: accalton@gmail.com
+  fromName: Craft
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: Local
+    settings:
+      path: '@webroot/images'
+    type: craft\fs\Local
+    url: '@web/images'
+meta:
+  __names__:
+    2cbf6175-9fd2-4c1b-878b-b824dac4990e: 'Cover Image' # Cover Image
+    2d130cb1-c774-418d-a98b-57bdda379f4d: 'Product Line' # Product Line
+    3f6b2556-6fdd-48b4-b28b-a625bcb4132d: Craft # Craft
+    6d49040b-b861-4e4e-8783-e11c85207bf1: Craft # Craft
+    16b7b362-5e79-46fc-ad98-0c9d63416a5e: 'Product Line' # Product Line
+    a317d4bd-b383-4b1a-aa8e-906e4643f142: 'Model Kits' # Model Kits
+    c681efaf-8557-4400-af2d-1994f46e07e3: Default # Default
+    c995f451-5c8a-4d9a-aee3-ea951c72855e: Common # Common
+    cf4f295c-7351-4308-bc93-bcd1f7378561: Images # Images
+    d659d0b5-3d18-4fa1-9170-de575ed423a5: 'Model Kits' # Model Kits
+plugins:
+  scout:
+    edition: standard
+    enabled: true
+    schemaVersion: 0.1.0
+system:
+  edition: solo
+  live: true
+  name: Craft
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

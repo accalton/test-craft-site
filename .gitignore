@@ -1,0 +1,12 @@
+/.env
+/.idea
+/vendor
+.DS_Store
+/.mysql/.my.cnf
+/.apache
+/.mysql
+/fm-project
+fm.docker-compose.yaml
+/node_modules
+/web/assets
+/web/images

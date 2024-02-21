@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: false
+handle: modelKits
+name: 'Model Kits'
+propagationMethod: all
+siteSettings:
+  3f6b2556-6fdd-48b4-b28b-a625bcb4132d: # Craft
+    enabledByDefault: true
+    hasUrls: true
+    template: model-kits/_entry
+    uriFormat: 'model-kits/{slug}'
+type: channel

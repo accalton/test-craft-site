@@ -1,0 +1,51 @@
+$link: #aaccff;
+$link-hover: #55aadd;
+
+body {
+    background: black;
+    color: white;
+}
+
+nav {
+    a {
+        color: $link;
+        text-decoration: none;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin: 20px 50px;
+
+    a {
+        color: $link;
+        text-decoration: none;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+
+    article {
+        img {
+            max-height: 200px;
+        }
+    }
+}
+
+.kit-wrapper {
+    display: block;
+    text-align: center;
+
+    img {
+        max-width: 600px;
+        max-height: 400px;
+    }
+}

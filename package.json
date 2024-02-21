@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "mix",
+    "prod": "mix --production",
+    "watch": "mix watch"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.22.1",
+    "dotenv-webpack": "^8.0.1",
+    "laravel-mix": "^6.0.49",
+    "react-instantsearch": "^7.6.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^12.6.0"
+  }
+}
