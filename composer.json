@@ -1,6 +1,7 @@
 {
   "require": {
     "craftcms/cms": "^4.4.0",
+    "craftcms/redactor": "^3.0",
     "studioespresso/craft-scout": "^3.3",
     "vlucas/phpdotenv": "^5.4.0"
   },
