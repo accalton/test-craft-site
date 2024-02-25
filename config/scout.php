@@ -28,7 +28,7 @@ return [
 
                 return [
                     'title' => $entry->title,
-                    'url' => $entry->getUrl(),
+                    'url' => '/' . $entry->uri,
                     'product-line' => [
                         'lvl0' => $productLineLvl0,
                         'lvl1' => $productLineLvl0 . ' > ' . $productLineLvl1
