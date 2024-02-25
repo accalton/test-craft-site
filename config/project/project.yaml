@@ -1,4 +1,4 @@
-dateModified: 1708511578
+dateModified: 1708557216
 email:
   fromEmail: accalton@gmail.com
   fromName: Craft
@@ -17,6 +17,7 @@ meta:
     2d130cb1-c774-418d-a98b-57bdda379f4d: 'Product Line' # Product Line
     3f6b2556-6fdd-48b4-b28b-a625bcb4132d: Craft # Craft
     4e032e35-8cc8-48e1-897c-6a3e2cb90432: Text # Text
+    4f114960-57b1-421c-b634-b64362113d07: Image # Image
     6d49040b-b861-4e4e-8783-e11c85207bf1: Craft # Craft
     7de5ae36-bce9-48c9-9526-b1cc4507c79c: 'Text Only' # Text Only
     16b7b362-5e79-46fc-ad98-0c9d63416a5e: 'Product Line' # Product Line
@@ -30,6 +31,7 @@ meta:
     cf4f295c-7351-4308-bc93-bcd1f7378561: Images # Images
     d659d0b5-3d18-4fa1-9170-de575ed423a5: 'Model Kits' # Model Kits
     e6c317e0-f31f-4b89-91e2-fbe19a1b8180: 'Image on Right' # Image on Right
+    ee401e2d-6fe0-4443-bcaf-3701718be469: 'Image Only' # Image Only
 plugins:
   redactor:
     edition: standard

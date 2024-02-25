@@ -92,8 +92,8 @@ fields:
       defaultUploadLocationSubpath: null
       localizeRelations: false
       maintainHierarchy: false
-      maxRelations: null
-      minRelations: null
+      maxRelations: 1
+      minRelations: 1
       previewMode: full
       restrictFiles: true
       restrictLocation: false
@@ -101,7 +101,7 @@ fields:
       restrictedLocationSource: 'volume:cf4f295c-7351-4308-bc93-bcd1f7378561' # Images
       restrictedLocationSubpath: null
       selectionLabel: null
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       sources: '*'

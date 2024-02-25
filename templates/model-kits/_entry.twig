@@ -1,15 +1,13 @@
 {% extends "_layouts/main" %}
 
 {% block content %}
-    <div class="kit-wrapper">
+    <div>
         <h1 id="entry-id" data-entry-id="{{ entry.id }}">{{ entry.title }}</h1>
         <h2>{{ entry.productLine.level(1).one().title }}</h2>
         <h3>{{ entry.productLine.level(2).one().title }}</h3>
-        <img src="{{ entry.coverImage.one().url }}" alt="" />
+        <img src="{{ entry.coverImage.one().url }}" alt="" class="cover-image" />
 
         {% include "_content-blocks/blocks" with { blocks: entry.contentBlocks.all() } %}
-
-        <img src="{{ entry.coverImage.one().url }}" alt="" />
     </div>
-    <div id="end-of-article"></div>
+    {# <div id="end-of-article"></div> #}
 {% endblock %}
