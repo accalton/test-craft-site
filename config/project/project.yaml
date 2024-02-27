@@ -1,16 +1,28 @@
-dateModified: 1708557216
+dateModified: 1709002598
 email:
   fromEmail: accalton@gmail.com
   fromName: Craft
   transportType: craft\mail\transportadapters\Sendmail
 fs:
-  local:
+  awsS3:
     hasUrls: true
-    name: Local
+    name: 'AWS S3'
     settings:
-      path: '@webroot/images'
-    type: craft\fs\Local
-    url: '@web/images'
+      addSubfolderToRootUrl: true
+      autoFocalPoint: false
+      bucket: my-figs
+      bucketSelectionMode: choose
+      cfDistributionId: ''
+      cfPrefix: ''
+      expires: ''
+      keyId: $S3_ACCESS_KEY_ID
+      makeUploadsPublic: false
+      region: ap-southeast-2
+      secret: $S3_SECRET_ACCESS_KEY
+      storageClass: ''
+      subfolder: images/
+    type: craft\awss3\Fs
+    url: 'https://my-figs.s3.amazonaws.com/'
 meta:
   __names__:
     2cbf6175-9fd2-4c1b-878b-b824dac4990e: 'Cover Image' # Cover Image
@@ -33,6 +45,10 @@ meta:
     e6c317e0-f31f-4b89-91e2-fbe19a1b8180: 'Image on Right' # Image on Right
     ee401e2d-6fe0-4443-bcaf-3701718be469: 'Image Only' # Image Only
 plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '2.0'
   redactor:
     edition: standard
     enabled: true

@@ -34,7 +34,7 @@ fieldLayouts:
         name: Content
         uid: 38220135-aa2c-4dec-9b29-f349e16fea9d
         userCondition: null
-fs: local
+fs: awsS3
 handle: images
 name: Images
 sortOrder: 1
