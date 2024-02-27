@@ -6,8 +6,6 @@ mix.setPublicPath('web');
 mix.js('src/js/main.js', 'web/assets/main.js').react();
 mix.sass('src/css/main.scss', 'web/assets/main.css');
 
-mix.copyDirectory('src/images', 'web/images');
-
 mix.webpackConfig({
     plugins: [
         new Dotenv({
